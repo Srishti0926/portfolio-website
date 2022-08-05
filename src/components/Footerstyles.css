@@ -1,0 +1,19 @@
+
+.social{
+    margin-top: 1rem ;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+
+.social{
+        margin-top: 1rem ;
+        position:absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,64 @@
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2 rem 0;
+    padding-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project-container{
+    max-width : 1140px;;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+}
+
+.project-card{
+
+    background: #4b4566;
+    padding: 1.2rem 1rem ;
+
+}
+.project-card img{
+    width:  100%;
+    opacity:1;
+}
+.project-title{
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    text-align: justify;
+    font-size: 0.9rem;
+
+
+}
+
+
+.pro-btns{
+    display: flex;
+    justify-content:space-between ;
+    padding: 0.5rem 1rem ;
+
+
+}
+
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+} 
+
+@media screen and (max-width: 640px) {
+  .project-container{
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+    }
+    
